@@ -112,12 +112,14 @@ button {
   background-color: #F4CE14;
   color: black;
   padding: 14px 18px;
+
   border: none;
   text-decoration: none;
   border-radius: 12px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+ 
 }
 
 .banner-img{

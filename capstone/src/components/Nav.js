@@ -3,7 +3,7 @@ import { useState } from 'react';
 import logo from './images/logo.svg';
 
 const Nav = () => {
-    const [menuOpen,setMenuOpen]=useState('false')
+    const [menuOpen,setMenuOpen]=useState(false)
     const toggleMenu = () => {
         setMenuOpen(!menuOpen)
     }
