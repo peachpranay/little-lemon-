@@ -1,3 +1,4 @@
+//Nav.js
 import React from 'react';
 import { useState } from 'react';
 import logo from './images/logo.svg';
@@ -23,11 +24,11 @@ const Nav = () => {
                 <div className="bar"></div>
             </div>
             <ul className={`nav-links ${menuOpen ? "visible": " "}`}>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Reservation</a></li>
-                <li><a href="#">Cart</a></li>
+                <li><a href="/">Home</a></li>
+              
+                <li><a href="/Menu">Menu</a></li>
+                <li><a href="/Booking">Reservation</a></li>
+                <li><a href="/Cart">Cart</a></li>
             </ul>
         </nav>
         
