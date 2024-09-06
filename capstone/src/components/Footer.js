@@ -14,8 +14,8 @@ const Footer = () => {
             <h3>Links</h3>
             <ul>
                 <li><a href='/'>Home</a></li>
-                <li><a href='/'>About</a></li>
                 <li><a href='/Menu'>Menu</a></li>
+             
                 <li><a href='/Booking'>Reservation</a></li>
                 
                 

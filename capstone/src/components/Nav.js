@@ -28,7 +28,7 @@ const Nav = () => {
               
                 <li><a href="/Menu">Menu</a></li>
                 <li><a href="/Booking">Reservation</a></li>
-                <li><a href="/Cart">Cart</a></li>
+          
             </ul>
         </nav>
         

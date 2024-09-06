@@ -13,7 +13,7 @@ const Header = () => {
             <div className='banner'>
                 <h2>Little Lemon</h2>
                 <h3>India</h3>
-                <p>we are the best place to get some new dishes here and there  are many things to try</p>
+                <p>Vibrant flavors and aromatic spices fill the air in this cozy eatery, offering authentic Indian cuisine and warm hospitality.</p>
                
                 <button onClick={()=>navigate("/booking")} >Reservation</button>
               

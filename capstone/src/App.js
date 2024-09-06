@@ -7,12 +7,14 @@ import Main from './components/Main';
 import Menu from './components/Menu';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <Router>
       <Nav />
       <Main />
       <Menu />
+
       <Footer />
     </Router>
   );

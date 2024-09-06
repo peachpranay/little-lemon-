@@ -18,17 +18,17 @@ const Menu = () => {
         })
 
         swalWithBootstrapButtons.fire({
-          title: 'Do you want to confirm order?',
-          text: "You won't be able to revert this!",
+          title: 'Do you want to Add this Item?',
+          text:"You won't be able to revert this!",
           icon: 'warning',
           showCancelButton: false,
-          confirmButtonText: 'Yes, order it!',
+          confirmButtonText: 'Yes, Order it!',
           reverseButtons: true
         }).then((result) => {
           if (result.isConfirmed) {
             swalWithBootstrapButtons.fire(
-              'Orderd!',
-              'Your order has been confirmed.',
+              'Added!',
+              'Your Item has been Ordered.',
               'success'
             )
           }
@@ -48,7 +48,7 @@ const Menu = () => {
               <div className="menu-content">
                 <div className="heading">
                   <h5>{recipe.title}</h5>
-                  <p>${recipe.price}</p>
+                  <p>Rs.{recipe.price}</p>
                 </div>
                 <p>{recipe.description}</p>
                 <button className="orderbtn" onClick={() => handleOrder(recipe.id)}>Order Now</button>
@@ -61,3 +61,8 @@ const Menu = () => {
   };
 
   export default Menu;
+
+
+
+
+
